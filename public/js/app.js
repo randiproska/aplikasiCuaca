@@ -20,7 +20,7 @@ weatherform.addEventListener('submit', (e) => {
     pesanSatu.textContent = 'Sedang mencari lokasi ..'
     pesanDua.textContent = ''
 
-    fetch('http://localhost:3000/infocuaca?address='+ location).then((response)=>{
+    fetch('/infocuaca?address='+ location).then((response)=>{
     response.json().then((data)=>{
             if(data.error){
                 pesanSatu.textContent = data.error
