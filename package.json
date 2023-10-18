@@ -2,7 +2,7 @@
   "name": "web-servers",
   "version": "1.0.0",
   "description": "",
-  "main": "templates/views/index.hbs",
+  "main": "index.js",
   "scripts": {
     "start": "node src/app.js"
   },
